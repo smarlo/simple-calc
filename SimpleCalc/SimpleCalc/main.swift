@@ -47,7 +47,7 @@ case "fact":
     
     if input1 < 0 {
         fact = -1
-        print("No negative factorials")
+        print("Factorials cannot be negative")
     }
     completed = true
     print(fact)
@@ -75,7 +75,7 @@ if operand {
         print("Result: \(firstArg % int2)")
         completed = true
     default:
-        print("Invalid input")
+        print("Input is invalid")
     }
 }
 
